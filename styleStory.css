@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color:white;
+    user-select: none;
+
+}
+
+h1{
+    color:white;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(46, 46, 46);
+    padding:24% 12%;
+}
+.photo{
+    position: absolute;
+    left:37%;
+    border-radius:50%;
+    user-select: none;
+}
+.info p{
+    font-family: sans-serif;
+    position: absolute;
+    left:40%;
+    border-radius:50%;
+}
+.time{
+    margin-left:4%;
+    color:rgba(255, 255, 255, 0.459);
+}
+.downinfo{
+    position: absolute;
+    top:94%;
+    left:36%;
+}
+.downinfo input{
+    font-size:200%;
+    border-radius: 18px;
+    border:none;
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.downinfo i{
+    font-size:250%;
+    cursor:pointer;
+}
+.like i{
+    cursor:pointer;
+    position: absolute;
+    top:0%;
+    left:92.7%;
+}
+.hidden{
+    display:none;
+}
+.fa-solid.fa-xmark{
+    cursor: pointer;
+    left:62%;
+    position: absolute;
+    font-size: 150%;
+    color:white;
+}
