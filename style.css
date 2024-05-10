@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(68, 68, 68);
+}
+.profileP{
+    cursor:pointer;
+    border:3px rgba(200, 38, 38, 0.718) solid;
+    border-radius:50%;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
